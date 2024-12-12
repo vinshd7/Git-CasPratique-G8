@@ -30,7 +30,7 @@ Si vous ne souhaitez pas mettre vos noms complets dans les commits et les noms d
 
 - Un élève du groupe fait un fork du repository https://github.com/SarahSch19/Git-CasPratique. Le nom du repo doit contenir le numéro de votre groupe, par exemple `Git-CasPratique-G1`.
 - Il ajoute les deux autres ainsi que l'enseigante (`SarahSch19`) en tant que collaborateurs
-- Chacun fait une copie en local du repo
+- Chacun fait une copie en local du repo forké
 - Chacun crée sa branche individuelle à partir de l'état initial du repository et la publie sur GitHub
 
 - Chaque élève aura une Modification à faire (création, mise à jour d'un fichier).
@@ -52,6 +52,7 @@ Dans l'étape suivante, résoudre tous les éventuels conflits qui adviennent. S
   - Elève 1 : fusionner la branche de l'élève 2 avec sa branche via un merge sans fast-forward
   - Elève 2 : fusionner la branche de l'élève 3 avec sa branche via un merge avec fast-forward
   - Elève 3 : lorsque les élèves 1 et 2 ont fini et publié leurs merges, récupérer les deux branches, et les rebase sur la sienne dans l'ordre suivant : branche de l'élève 1 puis branche de l'élève 2
+
 Une fois ces trois étapes effectuées, sur GitHub :
   - Elève 3 : créer une Pull Request de sa branche vers master et requêter la validation des deux autres élèves
   - Elève 2 : approuver la pull request
